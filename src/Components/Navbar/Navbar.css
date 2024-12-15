@@ -1,0 +1,53 @@
+.main {
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100vw;
+  height: 60px;
+  /* background-color: blue; */
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style: none;
+  align-items: center;
+  /* width: 180px; */
+  width: 30%;
+  margin: 0;
+  padding: 0;
+  padding-left: 2rem;
+}
+
+.second-ul {
+  width: 15%;
+  padding-right: 2rem;
+}
+.second-ul button {
+  text-align: center;
+  width: 100%;
+  background-color: #0393f6;
+  color: white;
+  border: transparent;
+  padding-right: 2rem;
+  padding-left: 2rem;
+}
+
+nav button {
+  width: 90px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}/*# sourceMappingURL=Navbar.css.map */

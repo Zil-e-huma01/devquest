@@ -1,0 +1,64 @@
+.top-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+.top-container .banner {
+  text-align: center;
+  width: 100%;
+  margin-top: 3rem;
+  position: relative;
+}
+.top-container .banner .dot {
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  border: transparent;
+  -webkit-clip-path: circle();
+          clip-path: circle();
+  background-color: #0393f6;
+}
+.top-container .banner .dot:first-of-type {
+  left: 6rem;
+}
+.top-container .banner .dot:nth-of-type(2) {
+  right: 10rem;
+  top: 5rem;
+}
+.top-container .banner .dot:nth-of-type(3) {
+  left: 15rem;
+  top: 15rem;
+}
+.top-container .banner .dot:nth-of-type(4) {
+  right: 20rem;
+  top: 18rem;
+}
+.top-container .banner button {
+  padding: 0.5rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  border-radius: 5px;
+  background-color: #0393f6;
+  color: white;
+  border: transparent;
+}
+.top-container .banner span {
+  text-decoration: underline;
+  text-decoration-color: #0393f6;
+}
+.top-container .banner h1 {
+  font-size: 3rem;
+}
+.top-container .banner .dashboard {
+  height: 100%;
+  width: 100%;
+  margin-top: 3rem;
+}
+.top-container .banner .dashboard img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  width: 100%;
+}/*# sourceMappingURL=LandingTop.css.map */
