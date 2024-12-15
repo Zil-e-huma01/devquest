@@ -1,0 +1,23 @@
+.grid-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: -moz-fit-content;
+  height: fit-content;
+  flex-direction: column;
+  padding-bottom: 1rem;
+}
+.grid-container h1 {
+  font-size: 2rem;
+}
+.grid-container .grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  row-gap: 1rem;
+  place-items: center;
+  justify-content: center;
+  align-content: center;
+  width: -moz-fit-content;
+  width: fit-content;
+}/*# sourceMappingURL=Grid.css.map */

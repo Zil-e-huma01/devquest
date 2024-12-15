@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&display=swap");
+.CardFrame {
+  height: 200px;
+  width: 300px;
+  position: relative;
+}
+.CardFrame h2 {
+  position: absolute;
+  bottom: 0;
+  left: 1rem;
+}
+.CardFrame p {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  width: 90%;
+  height: 50%;
+}
+.CardFrame button {
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+  padding: 0.5rem;
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+  border: 2px solid white;
+  border-radius: 1rem;
+  background-color: #0393F6;
+  color: white;
+}
+.CardFrame button:hover {
+  background-color: white;
+  color: #0393F6;
+}
+.CardFrame .Card {
+  height: 100%;
+  width: 100%;
+  border-radius: 1rem;
+  background-size: contain;
+  background-position: center;
+  border-radius: 10px;
+  overflow: hidden;
+  color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  transition: background-image 0.5s ease;
+}
+.CardFrame .Card:hover {
+  background-color: #89cefc;
+  transition: 1s ease;
+}/*# sourceMappingURL=Card.css.map */
